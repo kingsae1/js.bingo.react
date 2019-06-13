@@ -1,6 +1,10 @@
 # Bingo Game
 >React를 이용한 Bingo Game WebApplication 개발
 
+## Requirement
+- MobX : 3.X 버전 이상
+- React : 16.X 버전 이상
+
 ## Screenshot
 
 ![Bingo Screenshot](screenshot/bingo.png)
