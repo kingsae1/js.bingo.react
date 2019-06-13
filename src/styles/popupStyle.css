@@ -1,0 +1,27 @@
+#popupCont {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #000000bd;
+}
+
+#popupCont #textArea {
+    color: white;
+    text-align: center;
+    margin: 300px 50px;
+}
+
+#popupCont #buttonArea {
+    width: 100%;
+    bottom: 200px;
+}
+
+#popupCont.popHidden {
+    display: none;
+}
+
+#popupCont.popShow {
+    display: block;
+}

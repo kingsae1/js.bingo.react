@@ -1,0 +1,86 @@
+#title {
+    text-align: center;
+    padding: 1.875vw 0;
+    color: aliceblue;
+}
+
+#buttonArea {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.board {
+    width: 80%;
+    padding: 25px 0;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.3);
+    text-align: center;
+    border-radius: 5px;
+    margin: 25px auto;
+    font-size: 1.5rem;
+}
+
+.bingo {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 0 10px;
+    width: 70%;
+    height: 50vh;
+    margin: 0 auto;
+    position: relative;
+}
+
+.userComponent {
+    float: left;
+    width: 50%;
+    height: 80%;
+    min-width: 200px;
+    min-height: 200px;
+}
+
+.userComponent.off{
+    opacity: 0.3;
+}
+
+.cell {
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 3px solid #fff;
+    font-size: 2.5vw;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    width: 60%;
+    height: 60%;
+    line-height: 6vh;
+    border-radius: 10px;
+}
+
+.userComponent:nth-child(2n) .cell.true {
+    background-color: #ff7979;
+}
+
+.userComponent:nth-child(2n-1) .cell.true {
+    background-color: #03A9F4;
+}
+
+
+.buttons {
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    display: inline-block;
+    padding: 0 20px;
+    text-align: center;
+    -webkit-border-radius: 40px;
+    -khtml-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    border-radius: 40px;
+    background-color: #fc426a;
+    color: #ffffff;
+}
